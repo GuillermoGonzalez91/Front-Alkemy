@@ -1,0 +1,22 @@
+.ck-editor__editable {
+  min-height: 150px;
+}
+
+.entry-form {
+  min-height: 900px;
+}
+
+.select {
+  display: block;
+  width: 100%;
+  padding: 20px 10px;
+  border: 1px solid #ced4da;
+  border-radius: 2px;
+  outline: none;
+}
+
+@media screen and (min-width: 450px) {
+  .entry-form {
+    max-width: 500px !important;
+  }
+}

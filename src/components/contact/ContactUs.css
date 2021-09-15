@@ -1,0 +1,23 @@
+.contact-us-container {
+  margin: 0 30px !important;
+}
+
+.contact-us-form {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 600px !important;
+}
+
+.btn-bg {
+  background-color: #18a0fb;
+  color: #f2f2f2;
+}
+
+.border {
+  border: 1px solid rgba(0, 0, 0, 0.5) !important;
+}
+
+.comments {
+  resize: none;
+  height: 150px !important;
+}

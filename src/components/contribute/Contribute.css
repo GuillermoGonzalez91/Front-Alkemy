@@ -1,0 +1,13 @@
+.contribute-container {
+  padding: 0 30px !important;
+}
+
+@media screen and (max-width: 600px) {
+  .contribute-objects {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .contribute-objects h2 {
+    padding-bottom: 30px !important;
+  }
+}

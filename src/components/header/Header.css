@@ -1,0 +1,41 @@
+.nav-item {
+  font-weight: 500 !important;
+}
+
+.button-log-in,
+.button-register {
+  padding: 8px 20px !important;
+  border-radius: 8px !important;
+}
+
+.button-log-in {
+  background: #ffffff;
+  border: 1px solid #18a0fb !important;
+}
+
+.button-register {
+  background: #18a0fb !important;
+  border: 1px solid transparent !important;
+}
+
+.color-a {
+  color: #18a0fb !important;
+}
+
+.color-a:hover {
+  text-decoration: underline !important;
+}
+
+.button-register:hover {
+  background: #007bff !important;
+}
+
+@media (min-width: 992px) and (max-width: 1108px) {
+  .button-log-in {
+    margin-bottom: 8px;
+  }
+
+  .button-register {
+    margin-right: 8px;
+  }
+}

@@ -1,0 +1,6 @@
+.testimony-image {
+  min-height: 400px;
+  object-fit: cover;
+  position: center center;
+  cursor: pointer;
+}

@@ -1,0 +1,33 @@
+.card {
+	background: none;
+}
+
+.image {
+	opacity: 1;
+	transition: 0.5s ease;
+	backface-visibility: hidden;
+}
+
+.image:hover {
+	cursor: pointer;
+	opacity: 0.3;
+	transform: scale(0.97);
+}
+
+@media (min-width: 768px) {
+	.card {
+		width: 220px;
+	}
+}
+
+@media (min-width: 1000px) {
+	.card {
+		width: 300px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.card {
+		width: 360px;
+	}
+}

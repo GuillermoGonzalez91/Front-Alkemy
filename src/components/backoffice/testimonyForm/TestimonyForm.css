@@ -1,0 +1,14 @@
+.ck-editor__editable {
+    min-height: 150px;
+  }
+  
+  .testimony-form {
+    min-height: 900px;
+  }
+  
+  @media screen and (min-width: 450px) {
+    .testimony-form {
+      max-width: 500px !important;
+    }
+  }
+  

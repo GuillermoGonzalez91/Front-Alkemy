@@ -1,0 +1,10 @@
+.category-form {
+  min-height: 600px;
+  max-width: 600px;
+}
+
+@media screen and (max-width: 400px) {
+  .category-form-title {
+    font-size: 2rem;
+  }
+}

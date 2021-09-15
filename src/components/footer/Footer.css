@@ -1,0 +1,43 @@
+.footer {
+  border-top: 3px solid #333;
+}
+
+.col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav {
+  width: 100%;
+  justify-content: space-between;
+}
+
+.logo {
+  object-fit: contain;
+}
+
+.nav-link {
+  color: #333;
+  font-weight: bold;
+}
+
+.row {
+  justify-content: center;
+}
+
+.row-1 {
+  border-bottom: 1px solid #333;
+  margin-bottom: 60px;
+}
+
+.row-2 {
+  margin-bottom: 40px;
+  width: 75%;
+}
+
+@media screen and (min-width: 376px) {
+  .row-2 {
+    width: 25%;
+  }
+}

@@ -1,0 +1,13 @@
+.slider-card {
+  opacity: 0.9;
+}
+
+.slider-title {
+  opacity: 1;
+  line-height: 32px;
+}
+
+.slider-body {
+  outline: none !important;
+  padding: 10px !important;
+}
